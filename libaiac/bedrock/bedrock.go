@@ -21,7 +21,7 @@ const (
 	// not specify one
 	DefaultAWSProfile = "default"
 )
-
+	"github.com/aws/aws-sdk-go-v2/service/bedrockruntime"
 // New constructs a new Bedrock object. It receives a standard aws.Config
 // object.
 func New(cfg aws.Config) *Bedrock {
